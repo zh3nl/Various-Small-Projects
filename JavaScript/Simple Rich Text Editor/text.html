@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Rich Text Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html">Return to Clicked Elements and Position</a>
+    <div class="toolbar">
+        <button onclick="formatText('bold')"><b>Bold</b></button>
+        <button onclick="formatText('italic')"><i>Italic</i></button>
+        <button onclick="formatText('underline')"><u>Underline</u></button>
+    </div>
+    <!--Contenteditable div for the editor-->
+    <div id="editor" contenteditable="true">
+        Type your text here...
+    </div>
+
+    <script src="editor.js"></script>
+</body>
+</html>
